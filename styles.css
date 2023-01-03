@@ -23,11 +23,7 @@ button {
     color: #e5e7eb;
     height: 30px;
     width: 125px;
-    border-radius: 15%;
-}
-
-.footer {
-    background-color: #1f2937;
+    border-radius: 15px;
 }
 
 .header {
@@ -86,6 +82,7 @@ button {
 .hero-image img {
     width: 500px;
     height: 250px;
+    border-radius: 25px;
 }
 
 .information {
@@ -120,30 +117,12 @@ button {
 .information-image img {
     width: 200px;
     height: auto;
-    border-radius: 15%;
+    border-radius: 25px;
 }
 
 .information-caption {
     width: 200px;
     text-align: center;
-}
-
-.call-to-action {
-    background-color: #3882f6;
-}
-
-.call-to-action button {
-    border-color: #e5e7eb;
-}
-
-.cta-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #f9faf8;
-}
-
-.cta-text {
-    color: #e5e7eb;
 }
 
 .quote {
@@ -169,6 +148,43 @@ button {
     display: flex;
     justify-content: flex-end;
     padding-right: 25px;
+}
+
+.call-to-action {
+    margin: 100px 200px;
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px 100px;
+    border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action button {
+    border-color: #e5e7eb;
+}
+
+.cta-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.cta-text {
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 25px 200px;
 }
 
 .footer-text {
