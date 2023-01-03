@@ -9,8 +9,8 @@ body {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 25px;
     margin: 0;
+    padding: 0;
 }
 
 a {
@@ -26,8 +26,6 @@ button {
     border-radius: 15%;
 }
 
-
-
 .footer {
     background-color: #1f2937;
 }
@@ -40,9 +38,19 @@ button {
     padding: 10px 200px;
 }
 
+.header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
 .header-link-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header-link-text ul {
+    gap: 25px;
 }
 
 .hero {
@@ -80,10 +88,44 @@ button {
     height: 250px;
 }
 
-.header-logo-text {
-    font-size: 24px;
-    color: #f9faf8;
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 200px;
+    gap: 50px;
+}
+
+.information-header-text {
+    font-size: 36px;
     font-weight: 800;
+    color: #1f2937;
+}
+
+.information-cards {
+    display: flex;
+}
+
+.information-cards ul {
+    gap: 50px;
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.information-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 15%;
+}
+
+.information-caption {
+    width: 200px;
+    text-align: center;
 }
 
 .call-to-action {
@@ -104,21 +146,29 @@ button {
     color: #e5e7eb;
 }
 
-.information-header-text {
-    font-size: 36px;
-    font-weight: 800;
-    color: #1f2937;
-}
-
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
 }
 
 .quote-text {
+    display: flex;
+    justify-content: flex-start;
     font-size: 36px;
     font-weight: light;
     font-style: italic;
     color: #1f2937;
+}
+
+.quote-author {
+    font-weight: 800;
+    color: #1f2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
 }
 
 .footer-text {
