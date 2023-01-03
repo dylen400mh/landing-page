@@ -74,3 +74,8 @@ button {
 .footer-text {
     color: #e5e7eb;
 }
+
+.hero-image img {
+    max-width: 300px;
+    max-height: 300px;
+}
